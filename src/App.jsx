@@ -7,6 +7,7 @@ import foto from './assets/foto.png'
 import Entrenamiento2 from './Entrenamiento2'
 import Entrenamiento3 from './Entrenamiento3'
 import Entrenamiento4 from './Entrenamiento4'
+import Entrebnamiento5 from './Entrenamiento5'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,8 @@ function App() {
       <Entrenamiento3/>
 
       <Entrenamiento4/>
+
+      <Entrebnamiento5/>
 
     </div>
   )
