@@ -40,3 +40,35 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.form-container {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.85); /* blanco transparente */
+  border: 0.125rem solid skyblue;              /* borde azul cielo */
+  border-radius: 0.75rem;                      /* bordes redondeados */
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.15); /* sombra */
+  padding: 1.25rem;
+  width: 18.75rem;
+  margin: 2.5rem auto;
+}
+
+
+.form-container div {
+  margin-bottom: 0.75rem;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  box-sizing: border-box; 
+}
+
+.form-container label{
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+  color: midnightblue;
+
+}

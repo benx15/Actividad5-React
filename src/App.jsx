@@ -5,6 +5,7 @@ import './App.css'
 import Entrenamiento1 from './Entrenamiento1'
 import foto from './assets/foto.png'
 import Entrenamiento2 from './Entrenamiento2'
+import Entrenamiento3 from './Entrenamiento3'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,8 @@ function App() {
       />
 
       <Entrenamiento2/>
+
+      <Entrenamiento3/>
 
     </div>
   )
